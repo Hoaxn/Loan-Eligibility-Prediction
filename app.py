@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-with open("loan_model.pkl", "rb") as model_file:
+with open("loan_model_KN.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Features used during training
